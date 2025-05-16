@@ -11,8 +11,8 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-semibold mb-3">1. Acceptance of Terms</h2>
             <p>
-              By accessing or using CodeFlex.AI's website, mobile application, or any other services provided by CodeFlex.AI 
-              (collectively, the "Services"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree 
+              By accessing or using CodeFlex.AI&apos;s website, mobile application, or any other services provided by CodeFlex.AI 
+              (collectively, the &quot;Services&quot;), you agree to be bound by these Terms of Service (&quot;Terms&quot;). If you do not agree 
               to these Terms, please do not use our Services.
             </p>
           </section>
@@ -69,7 +69,7 @@ export default function TermsPage() {
             <h2 className="text-2xl font-semibold mb-3">6. User Content</h2>
             <p className="mb-3">
               6.1 <strong>Ownership:</strong> You retain ownership of any content you submit to our Services, including fitness data, 
-              comments, and feedback ("User Content").
+              comments, and feedback (&quot;User Content&quot;).
             </p>
             <p className="mb-3">
               6.2 <strong>License Grant:</strong> By submitting User Content, you grant CodeFlex.AI a worldwide, non-exclusive, 
