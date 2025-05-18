@@ -1,7 +1,7 @@
 export const USER_PROGRAMS = [
   {
     id: 1,
-    first_name: "Praneet",
+    first_name: "Sia",
     profilePic: "https://res.cloudinary.com/dykqu1tie/image/upload/v1747249037/w7wv4prlr80mzw83ov7h.jpg",
     fitness_goal: "Weight Loss",
     height: "5'7\"",
@@ -39,7 +39,7 @@ export const USER_PROGRAMS = [
   },
   {
     id: 2,
-    first_name: "Yash",
+    first_name: "Raju",
     profilePic: "https://res.cloudinary.com/dykqu1tie/image/upload/v1747249032/vdcmjg2kfg2t97rdlhde.jpg",
     fitness_goal: "Muscle Gain",
     height: "5'10\"",
@@ -78,7 +78,7 @@ export const USER_PROGRAMS = [
   },
   {
     id: 3,
-    first_name: "Sargun",
+    first_name: "Priya",
     profilePic: "https://res.cloudinary.com/dykqu1tie/image/upload/v1747249035/l0nj6ssclzqes5szhym1.jpg",
     fitness_goal: "General Fitness",
     height: "5'4\"",

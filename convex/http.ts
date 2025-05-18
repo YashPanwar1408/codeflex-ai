@@ -199,18 +199,19 @@ http.route({
       let workoutPlan = JSON.parse(workoutPlanText);
       workoutPlan = validateWorkoutPlan(workoutPlan);
 
-      const dietPrompt = `You are an experienced nutrition coach creating a personalized diet plan based on:
+   const dietPrompt = `You are an experienced Indian nutrition coach creating a personalized Indian diet plan based on:
         Age: ${age}
         Height: ${height}
         Weight: ${weight}
         Fitness goal: ${fitness_goal}
         Dietary restrictions: ${dietary_restrictions}
         
-        As a professional nutrition coach:
-        - Calculate appropriate daily calorie intake based on the person's stats and goals
-        - Create a balanced meal plan with proper macronutrient distribution
-        - Include a variety of nutrient-dense foods while respecting dietary restrictions
-        - Consider meal timing around workouts for optimal performance and recovery
+        As a professional Indian nutrition coach:
+        - Calculate appropriate daily calorie intake based on the person's stats and fitness goals
+        - Create a balanced Indian meal plan with proper macronutrient distribution
+        - Use traditional Indian foods and local ingredients, while respecting dietary restrictions
+        - Include vegetarian or non-vegetarian options as per the restrictions
+        - Consider meal timing around workouts for optimal performance and muscle recovery
         
         CRITICAL SCHEMA INSTRUCTIONS:
         - Your output MUST contain ONLY the fields specified below, NO ADDITIONAL FIELDS
@@ -221,19 +222,19 @@ http.route({
 
         Return a JSON object with this EXACT structure and no other fields:
         {
-          "dailyCalories": 2000,
+          "dailyCalories": 2200,
           "meals": [
             {
               "name": "Breakfast",
-              "foods": ["Oatmeal with berries", "Greek yogurt", "Black coffee"]
+              "foods": ["Vegetable upma", "Boiled eggs", "Masala chai without sugar"]
             },
             {
               "name": "Lunch",
-              "foods": ["Grilled chicken salad", "Whole grain bread", "Water"]
+              "foods": ["Brown rice", "Rajma curry", "Mixed vegetable salad", "Buttermilk"]
             }
           ]
         }
-        
+
         DO NOT add any fields that are not in this example. Your response must be a valid JSON object with no additional text.`;
 
       const dietResult = await model.generateContent(dietPrompt);
