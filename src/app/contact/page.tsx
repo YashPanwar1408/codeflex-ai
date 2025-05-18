@@ -3,7 +3,7 @@ export default function ContactPage() {
       <div className="max-w-4xl mx-auto py-16 px-4">
         <h1 className="text-4xl font-bold mb-6 text-center">Contact Us</h1>
         <p className="mb-10 text-center text-gray-300 max-w-2xl mx-auto">
-          Have questions about CodeFlex.AI? We're here to help! Fill out the form below and our team will get back to you shortly.
+          Have questions about CodeFlex.AI? We&apos;re here to help! Fill out the form below and our team will get back to you shortly.
         </p>
         
         <div className="flex justify-center items-center flex-col w-full">
